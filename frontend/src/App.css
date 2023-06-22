@@ -1,0 +1,15 @@
+.task-wrapper {
+    border: 1px dashed lightgrey;
+    padding: 2em;
+    border-radius: 1em;
+    margin-top: 2em;
+}
+
+.task-wrapper-title {
+    margin-top: -2.3em !important;
+    width: min-content !important;
+    margin-bottom: 1em !important;
+    background-color: white !important;
+    white-space: nowrap !important;
+    color: gray !important;
+}

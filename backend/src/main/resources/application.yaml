@@ -1,0 +1,16 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/learning-management-system
+    username: postgres
+    password: 1337
+    driver-class-name: org.postgresql.Driver
+  sql:
+    init:
+      mode: always
+      continue-on-error: false
+
+security:
+  jwt:
+    secret: bWlzYWthbmFrYWhhcmFtaXNha2FuYWthaGFyYW1pc2FrYW5ha2FoYXJh
+    access: 6000000 # 600000
+    refresh: 2592000000
